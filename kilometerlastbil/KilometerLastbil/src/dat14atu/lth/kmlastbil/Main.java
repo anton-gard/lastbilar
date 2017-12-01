@@ -139,7 +139,7 @@ public class Main {
 			}
 			
 			for(int optimizer = 0; optimizer < optimizers.length - 1; optimizer++) {
-				scores[optimizer][round] = impact[optimizer] == 0 ? 0 : (1.0 * impact[optimizers.length - 1]) / (1.0 * impact[optimizer]);
+				scores[optimizer][round] = impact[optimizer] == 0 ? 0 : (1.0 * impact[optimizers.length - 1] - impact[optimizer]) / (1.0 * impact[optimizers.length - 1]);
 			}
 			
 			// NOTHING BUT PRINTING AND SCORING BELOW

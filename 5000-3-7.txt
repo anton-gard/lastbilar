@@ -1,0 +1,32 @@
+Välkommen till Bobs KilometerLastbils-räknare.
+
+Running 5000 models starting at seed 0 with 3 factories and 7 stores.
+
+                                                                    #1        #2        #3        #4        #5        #6
+Shortest Distance First Optimizer                                 1082       474      1008      2312       119         5
+Biggest Demand First Optimizer                                      11        11        20       139      2330      2489
+Even Distribution "Optimizer"                                        0         0         0         6      2488      2506
+Equimizer (Shortest Distance First Optimizer)                     2661       824      1490        25         0         0
+Equimizer (Biggest Demand First Optimizer)                        1938      1038      1083       941         0         0
+Equimizer (Even Distribution "Optimizer")                         2039      1055      1168       717        21         0
+
+Shortest Distance First Optimizer got an average score of 0.8539283339081573
+Biggest Demand First Optimizer got an average score of 0.7822937206582259
+Even Distribution "Optimizer" got an average score of 0.7798261077771572
+Equimizer (Shortest Distance First Optimizer) got an average score of 0.8616596325615413
+Equimizer (Biggest Demand First Optimizer) got an average score of 0.8607855409120184
+Equimizer (Even Distribution "Optimizer") got an average score of 0.861506664182896
+
+Shortest Distance First Optimizer got a personal best of 0.9232089079241972
+Biggest Demand First Optimizer got a personal best of 0.8808187821116679
+Even Distribution "Optimizer" got a personal best of 0.8309569687828222
+Equimizer (Shortest Distance First Optimizer) got a personal best of 0.941063405063899
+Equimizer (Biggest Demand First Optimizer) got a personal best of 0.9395281834582959
+Equimizer (Even Distribution "Optimizer") got a personal best of 0.9339923307517647
+
+Shortest Distance First Optimizer got an average execution time of 0.004 milliseconds.
+Biggest Demand First Optimizer got an average execution time of 0.003 milliseconds.
+Even Distribution "Optimizer" got an average execution time of 0.002 milliseconds.
+Equimizer (Shortest Distance First Optimizer) got an average execution time of 23.462 milliseconds.
+Equimizer (Biggest Demand First Optimizer) got an average execution time of 42.855 milliseconds.
+Equimizer (Even Distribution "Optimizer") got an average execution time of 39.939 milliseconds.

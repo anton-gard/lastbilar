@@ -1,0 +1,43 @@
+Välkommen till Bobs KilometerLastbils-räknare.
+
+Running 50 models starting at seed 0 with 3 factories and 8 stores.
+                                                                    #1        #2        #3        #4        #5        #6        #7        #8        #9
+Shortest Distance First Optimizer                                    7         2         1         0         5         4        27         4         0
+Biggest Demand First Optimizer                                       0         0         0         0         0         1         3        19        27
+Even Distribution "Optimizer"                                        0         0         0         0         0         0         0        27        23
+Equimizer (Shortest Distance First Optimizer)                       15         5         3         6        11        10         0         0         0
+Equimizer (Biggest Demand First Optimizer)                          10         1         5         6         7        16         5         0         0
+Equimizer (Even Distribution "Optimizer")                           12         3         3        11         7         9         5         0         0
+PerfectionistEquimizer (Shortest Distance First Optimizer)          38         2         2         3         3         2         0         0         0
+PerfectionistEquimizer (Biggest Demand First Optimizer)             29         8         5         3         5         0         0         0         0
+PerfectionistEquimizer (Even Distribution "Optimizer")              29         3         3         4         9         2         0         0         0
+
+Shortest Distance First Optimizer got an average score of 0.8933020451410352
+Biggest Demand First Optimizer got an average score of 0.8468487062848589
+Even Distribution "Optimizer" got an average score of 0.8436242844551138
+Equimizer (Shortest Distance First Optimizer) got an average score of 0.9016899662087073
+Equimizer (Biggest Demand First Optimizer) got an average score of 0.9015567299731607
+Equimizer (Even Distribution "Optimizer") got an average score of 0.9022247988920106
+PerfectionistEquimizer (Shortest Distance First Optimizer) got an average score of 0.90319947132401
+PerfectionistEquimizer (Biggest Demand First Optimizer) got an average score of 0.9037582919342269
+PerfectionistEquimizer (Even Distribution "Optimizer") got an average score of 0.903795705786876
+
+Shortest Distance First Optimizer got a personal best of 0.9262321085831214
+Biggest Demand First Optimizer got a personal best of 0.8886172618471389
+Even Distribution "Optimizer" got a personal best of 0.8717455728882586
+Equimizer (Shortest Distance First Optimizer) got a personal best of 0.9262321085831214
+Equimizer (Biggest Demand First Optimizer) got a personal best of 0.9233253316554485
+Equimizer (Even Distribution "Optimizer") got a personal best of 0.925139368431442
+PerfectionistEquimizer (Shortest Distance First Optimizer) got a personal best of 0.9262321085831214
+PerfectionistEquimizer (Biggest Demand First Optimizer) got a personal best of 0.9251931241969682
+PerfectionistEquimizer (Even Distribution "Optimizer") got a personal best of 0.9261514749348322
+
+Shortest Distance First Optimizer got an average execution time of 0.017 milliseconds.
+Biggest Demand First Optimizer got an average execution time of 0.015 milliseconds.
+Even Distribution "Optimizer" got an average execution time of 0.032 milliseconds.
+Equimizer (Shortest Distance First Optimizer) got an average execution time of 113.121 milliseconds.
+Equimizer (Biggest Demand First Optimizer) got an average execution time of 187.224 milliseconds.
+Equimizer (Even Distribution "Optimizer") got an average execution time of 194.619 milliseconds.
+PerfectionistEquimizer (Shortest Distance First Optimizer) got an average execution time of 10001.665 milliseconds.
+PerfectionistEquimizer (Biggest Demand First Optimizer) got an average execution time of 11095.278 milliseconds.
+PerfectionistEquimizer (Even Distribution "Optimizer") got an average execution time of 9576.930 milliseconds.

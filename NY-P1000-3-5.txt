@@ -1,0 +1,56 @@
+Välkommen till Bobs KilometerLastbils-räknare.
+
+Running 1000 models starting at seed 0 with 3 factories and 5 stores.
+
+                                                                    #1        #2        #3        #4        #5        #6        #7        #8        #9       #10       #11       #12
+Shortest Distance First Optimizer                                  242        19        34        34        63        57       104        69       172       161        41         4
+Biggest Demand First Optimizer                                       4         1         1         2         7         4         6         9        30        58       404       474
+Even Distribution "Optimizer"                                        0         0         0         0         0         0         0         0         1        12       467       520
+Biggest Difference First Optimizer                                 316        26        36        37        75        62        99        73       192        73        11         0
+Equimizer (Shortest Distance First Optimizer)                      394        27        50        59       101        96       133        78        58         4         0         0
+Equimizer (Biggest Demand First Optimizer)                         193        23        26        29        61        71        92       100       155       242         8         0
+Equimizer (Even Distribution "Optimizer")                          165        21        37        40        94        74       115        99       194       136        25         0
+Equimizer (Biggest Difference First Optimizer)                     465        30        48        62       105        92       120        57        20         1         0         0
+PerfectionistEquimizer (Shortest Distance First Optimizer)         745        41        45        43        54        35        19        14         3         1         0         0
+PerfectionistEquimizer (Biggest Demand First Optimizer)            663        40        39        36        36        39        46        41        46        14         0         0
+PerfectionistEquimizer (Even Distribution "Optimizer")             663        45        39        44        47        25        45        48        22        21         1         0
+PerfectionistEquimizer (Biggest Difference First Optimizer)        759        34        42        53        56        26        15        14         1         0         0         0
+
+Shortest Distance First Optimizer got an average score of 0.9197823458951109
+Biggest Demand First Optimizer got an average score of 0.8866012034443237
+Even Distribution "Optimizer" got an average score of 0.8841487397412734
+Biggest Difference First Optimizer got an average score of 0.921457946504946
+Equimizer (Shortest Distance First Optimizer) got an average score of 0.9232203362112107
+Equimizer (Biggest Demand First Optimizer) got an average score of 0.920627082954587
+Equimizer (Even Distribution "Optimizer") got an average score of 0.9215012937929704
+Equimizer (Biggest Difference First Optimizer) got an average score of 0.9236517177361787
+PerfectionistEquimizer (Shortest Distance First Optimizer) got an average score of 0.9247489906533862
+PerfectionistEquimizer (Biggest Demand First Optimizer) got an average score of 0.9245886301308578
+PerfectionistEquimizer (Even Distribution "Optimizer") got an average score of 0.9248613721817033
+PerfectionistEquimizer (Biggest Difference First Optimizer) got an average score of 0.9248103407534572
+
+Shortest Distance First Optimizer got a personal best of 0.9518974579763982
+Biggest Demand First Optimizer got a personal best of 0.9313620096375439
+Even Distribution "Optimizer" got a personal best of 0.9137467641199302
+Biggest Difference First Optimizer got a personal best of 0.9518974579763982
+Equimizer (Shortest Distance First Optimizer) got a personal best of 0.9518974579763982
+Equimizer (Biggest Demand First Optimizer) got a personal best of 0.9513574118075896
+Equimizer (Even Distribution "Optimizer") got a personal best of 0.947974109499146
+Equimizer (Biggest Difference First Optimizer) got a personal best of 0.9518974579763982
+PerfectionistEquimizer (Shortest Distance First Optimizer) got a personal best of 0.9543502462712296
+PerfectionistEquimizer (Biggest Demand First Optimizer) got a personal best of 0.9543502462712296
+PerfectionistEquimizer (Even Distribution "Optimizer") got a personal best of 0.9543502462712296
+PerfectionistEquimizer (Biggest Difference First Optimizer) got a personal best of 0.9543502462712296
+
+Shortest Distance First Optimizer got an average execution time of 0.004 milliseconds.
+Biggest Demand First Optimizer got an average execution time of 0.003 milliseconds.
+Even Distribution "Optimizer" got an average execution time of 0.002 milliseconds.
+Biggest Difference First Optimizer got an average execution time of 0.007 milliseconds.
+Equimizer (Shortest Distance First Optimizer) got an average execution time of 1.087 milliseconds.
+Equimizer (Biggest Demand First Optimizer) got an average execution time of 2.188 milliseconds.
+Equimizer (Even Distribution "Optimizer") got an average execution time of 2.141 milliseconds.
+Equimizer (Biggest Difference First Optimizer) got an average execution time of 0.924 milliseconds.
+PerfectionistEquimizer (Shortest Distance First Optimizer) got an average execution time of 9.546 milliseconds.
+PerfectionistEquimizer (Biggest Demand First Optimizer) got an average execution time of 12.339 milliseconds.
+PerfectionistEquimizer (Even Distribution "Optimizer") got an average execution time of 11.790 milliseconds.
+PerfectionistEquimizer (Biggest Difference First Optimizer) got an average execution time of 9.051 milliseconds.

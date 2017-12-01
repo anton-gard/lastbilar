@@ -1,0 +1,44 @@
+Välkommen till Bobs KilometerLastbils-räknare.
+
+Running 100000 models starting at seed 0 with 2 factories and 8 stores.
+
+                                                                    #1        #2        #3        #4        #5        #6        #7        #8        #9
+Shortest Distance First Optimizer                                92384         0         0      6903         0         0       713         0         0
+Biggest Demand First Optimizer                                    8109         0         0     42239         0         0     49652         0         0
+Even Distribution "Optimizer"                                      983         0         0     49421         0         0     49596         0         0
+Equimizer (Shortest Distance First Optimizer)                    92384         0         0      6903         0         0       713         0         0
+Equimizer (Biggest Demand First Optimizer)                        8109         0         0     42239         0         0     49652         0         0
+Equimizer (Even Distribution "Optimizer")                          983         0         0     49421         0         0     49596         0         0
+PerfectionistEquimizer (Shortest Distance First Optimizer)       92384         0         0      6903         0         0       713         0         0
+PerfectionistEquimizer (Biggest Demand First Optimizer)           8109         0         0     42239         0         0     49652         0         0
+PerfectionistEquimizer (Even Distribution "Optimizer")             983         0         0     49421         0         0     49596         0         0
+
+Shortest Distance First Optimizer got an average score of 0.90699797779265
+Biggest Demand First Optimizer got an average score of 0.8803629340592833
+Even Distribution "Optimizer" got an average score of 0.8793057548147399
+Equimizer (Shortest Distance First Optimizer) got an average score of 0.90699797779265
+Equimizer (Biggest Demand First Optimizer) got an average score of 0.8803629340592833
+Equimizer (Even Distribution "Optimizer") got an average score of 0.8793057548147399
+PerfectionistEquimizer (Shortest Distance First Optimizer) got an average score of 0.90699797779265
+PerfectionistEquimizer (Biggest Demand First Optimizer) got an average score of 0.8803629340592833
+PerfectionistEquimizer (Even Distribution "Optimizer") got an average score of 0.8793057548147399
+
+Shortest Distance First Optimizer got a personal best of 0.977715703508112
+Biggest Demand First Optimizer got a personal best of 0.9395452703785017
+Even Distribution "Optimizer" got a personal best of 0.9177175354597973
+Equimizer (Shortest Distance First Optimizer) got a personal best of 0.977715703508112
+Equimizer (Biggest Demand First Optimizer) got a personal best of 0.9395452703785017
+Equimizer (Even Distribution "Optimizer") got a personal best of 0.9177175354597973
+PerfectionistEquimizer (Shortest Distance First Optimizer) got a personal best of 0.977715703508112
+PerfectionistEquimizer (Biggest Demand First Optimizer) got a personal best of 0.9395452703785017
+PerfectionistEquimizer (Even Distribution "Optimizer") got a personal best of 0.9177175354597973
+
+Shortest Distance First Optimizer got an average execution time of 0.002 milliseconds.
+Biggest Demand First Optimizer got an average execution time of 0.002 milliseconds.
+Even Distribution "Optimizer" got an average execution time of 0.000 milliseconds.
+Equimizer (Shortest Distance First Optimizer) got an average execution time of 0.130 milliseconds.
+Equimizer (Biggest Demand First Optimizer) got an average execution time of 0.128 milliseconds.
+Equimizer (Even Distribution "Optimizer") got an average execution time of 0.128 milliseconds.
+PerfectionistEquimizer (Shortest Distance First Optimizer) got an average execution time of 0.254 milliseconds.
+PerfectionistEquimizer (Biggest Demand First Optimizer) got an average execution time of 0.255 milliseconds.
+PerfectionistEquimizer (Even Distribution "Optimizer") got an average execution time of 0.254 milliseconds.

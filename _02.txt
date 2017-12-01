@@ -1,0 +1,20 @@
+Välkommen till Bobs KilometerLastbils-räknare.
+
+Running 1000000 models starting at seed 0 with 3 factories and 8 stores.
+
+                                                                         #1        #2        #3
+Shortest Distance First Optimizer                                    719549    267013     13438
+Biggest Demand First Optimizer                                        17145     14944    967911
+Biggest Difference First Optimizer                                   805343    187498      7159
+
+Shortest Distance First Optimizer got an average score of 1.5531266147953406
+Biggest Demand First Optimizer got an average score of 1.034790223249194
+Biggest Difference First Optimizer got an average score of 1.5660028776403687
+
+Shortest Distance First Optimizer got a personal best of 8.627575460264328
+Biggest Demand First Optimizer got a personal best of 4.78769785388385
+Biggest Difference First Optimizer got a personal best of 7.606992868462758
+
+Shortest Distance First Optimizer got an average execution time of 0.003 milliseconds.
+Biggest Demand First Optimizer got an average execution time of 0.002 milliseconds.
+Biggest Difference First Optimizer got an average execution time of 0.015 milliseconds.

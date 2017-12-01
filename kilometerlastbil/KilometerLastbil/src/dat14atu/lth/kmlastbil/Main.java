@@ -12,7 +12,7 @@ public class Main {
 	final static int ROUNDS = 1000000;
 	
 	// model
-	final static boolean CUSTOM = true;
+	final static boolean CUSTOM = false;
 	final static int FACTORY_COUNT = 3;
 	final static int STORE_COUNT = 8;
 	
@@ -23,7 +23,7 @@ public class Main {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		
-		// våra siffror, körs om CUSTOM=true
+		// vÃ¥ra siffror, kÃ¶rs om CUSTOM=true
 		int customFactories = 3;
 		int customStores = 8;
 		int customOutput[] = new int[] { 18, 46, 36 };
@@ -34,14 +34,14 @@ public class Main {
 			{783,	70,		168,	49,		1169,	1041,	679,	835}
 		};
 		
-		System.out.println("Välkommen till Bobs KilometerLastbils-räknare.\n");
+		System.out.println("VÃ¤lkommen till Bobs KilometerLastbils-rÃ¤knare.\n");
 		
 		optimizers = new IOptimizer[] {
 			
 			// fast and simple distributors
 			new OptimizerEvenDistribution(),
 			new OptimizerShortestDistance(),
-			new OptimizerBiggestDemand(),
+			//new OptimizerBiggestDemand(),
 			new OptimizerBiggestDifference(),
 			
 			// sloppy "equilibrium optimization" on the base distributions
@@ -149,6 +149,7 @@ public class Main {
 				
 				// make sexy score board, lising optimizer placing totals
 				int placings[][] = new int[optimizers.length-1][optimizers.length-1]; // [optimizer][# of placing #X]
+				int soloPlacings[][] = new int[optimizers.length-1][optimizers.length-1]; // [optimizer][# of placing #X]
 				for(int scoreRound = 0; scoreRound <= round; scoreRound++) {
 					
 					// get score for this round
@@ -169,6 +170,8 @@ public class Main {
 					}
 					
 					// save placings
+					int solo[] = new int[optimizers.length];
+					int tempPlacing[] = new int[optimizers.length];
 					for(int placing = 0; placing < optimizers.length - 1; placing++) {
 						int placingAdjusted = placing;
 						for(int tieOffset = 1; tieOffset <= placing; tieOffset++) {
@@ -185,13 +188,20 @@ public class Main {
 						else {
 							placings[(int) scoreboard[placing][0]][placing] += 1;
 						}
+						solo[placingAdjusted]++;
+						tempPlacing[placingAdjusted] = (int) scoreboard[placing][0];
+					}
+					for(int i = 0; i<solo.length;i++) {
+						if(solo[i] == 1) {
+							soloPlacings[tempPlacing[i]][i]++;
+						}
 					}
 				}
 				
 				// scoring and prints down below
 				
 				// sexy formatting
-				String tableFormat = "%-65s" + new String(new char[optimizers.length - 1]).replace("\0", "%10s") + "\n";
+				String tableFormat = "%-65s" + new String(new char[optimizers.length - 1]).replace("\0", "%20s") + "\n";
 				
 				// table header for sexy score board
 				Object[] row = new String[optimizers.length];
@@ -207,7 +217,7 @@ public class Main {
 				for(int optimizer = 0; optimizer < optimizers.length - 1; optimizer++) {
 					row[0] = optimizers[optimizer].getName();
 					for(int placing = 0; placing < optimizers.length - 1; placing++) {
-						row[placing + 1] = "" + placings[optimizer][placing];
+						row[placing + 1] = "" + placings[optimizer][placing] + "(" + soloPlacings[optimizer][placing] + ")";
 					}
 					
 					// print sexy content

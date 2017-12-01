@@ -1,0 +1,27 @@
+Välkommen till Bobs KilometerLastbils-räknare.
+
+Running 1000000 models starting at seed 0 with 3 factories and 8 stores.
+
+                                                                                   #1                  #2                  #3
+Even Distribution "Optimizer"                                                352(352)          1219(1219)      998429(998429)
+Shortest Distance First Optimizer                                      732504(180200)      266470(266195)          1026(1026)
+Biggest Difference First Optimizer                                     819448(267144)      180282(180007)            270(270)
+
+Even Distribution "Optimizer" got an average score of 0.0
+Shortest Distance First Optimizer got an average score of 0.3319266909982521
+Biggest Difference First Optimizer got an average score of 0.33800172518923344
+
+Even Distribution "Optimizer" got a personal best of 0.0
+Shortest Distance First Optimizer got a personal best of 0.8840925814435748
+Biggest Difference First Optimizer got a personal best of 0.8685420090051849
+
+Even Distribution "Optimizer" got an average execution time of 0.000 milliseconds.
+Shortest Distance First Optimizer got an average execution time of 0.003 milliseconds.
+Biggest Difference First Optimizer got an average execution time of 0.016 milliseconds.
+
+
+_______________
+A score of X means a reduction of impact of X compared to the Even Distributor "Optimizer".
+
+The placings A(B) means that the optimizer has A placings of that number 
+but only B of those are the times when it was the only optimizer with that placing.
